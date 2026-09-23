@@ -1,4 +1,5 @@
 import tkinter
+import random
 game_width = 700
 game_height = 700
 speed = 50
