@@ -1,4 +1,4 @@
-from tkinter import *
+import tkinter
 game_width = 700
 game_height = 700
 speed = 50
@@ -12,14 +12,13 @@ class Food:
     pass
 def next_turn():
     pass
-def move(new move):
+def move(new_move):
     pass
 def hit_box():
     pass
-    pass
 def game_over():
     pass
-window = TK()
+window = Tk()
 window.title("Snake Game")
-window.resizeable(False, False)
+window.resizable(False, False)
 window.mainloop()
