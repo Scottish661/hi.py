@@ -18,7 +18,7 @@ def hit_box():
     pass
 def game_over():
     pass
-window = Tk()
+window = tkinter.Tk()
 window.title("Snake Game")
 window.resizable(False, False)
 window.mainloop()
