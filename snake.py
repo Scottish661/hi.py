@@ -19,3 +19,7 @@ def hit_box():
     pass
 def game_over():
     pass
+window = TK()
+window.title("Snake Game")
+window.resizeable(False, False)
+window.mainloop()
